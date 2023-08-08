@@ -6,7 +6,7 @@ import (
 )
 
 func Test_parse(t *testing.T) {
-	file, err := os.ReadFile("./file/config.json")
+	file, err := os.ReadFile("../file/config.json")
 	if err != nil {
 		panic(err)
 	}
